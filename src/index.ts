@@ -21,7 +21,14 @@ const run = async (): Promise<void> => {
       new BigNumber(hash, 16).modulo(divisor).toString()
     )}`
   );
-  return;
+
+  await prompt([
+    {
+      name: "void",
+      type: "input",
+      message: `Press ${chalk.green("Enter")} to finish`,
+    },
+  ]);
 };
 
 run().catch((error) => console.error(error));
