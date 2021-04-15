@@ -1,6 +1,6 @@
 # modulo-calculator
 
-This is a simple utility to calculate the modulo of packages.
+This is a simple utility to calculate the modulo of transactions as employed by Criptan.
 
 # Install
 
